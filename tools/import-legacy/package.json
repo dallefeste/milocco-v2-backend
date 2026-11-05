@@ -1,0 +1,23 @@
+{
+  "name": "@milocco/import-legacy",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Importa i dati dal vecchio database MySQL nel nuovo database PostgreSQL",
+  "scripts": {
+    "import": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "iconv-lite": "^0.7.3",
+    "mysql2": "^3.11.5",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.9.3"
+  }
+}
